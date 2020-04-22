@@ -48,7 +48,7 @@ margin-top: 43px;
 
 .site-navigation-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
@@ -300,7 +300,7 @@ color: #cccccc;
 
 .footer-navigation-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
