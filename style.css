@@ -75,7 +75,6 @@ color: #adadad;
 .promo {
   margin-top: 47px;
   padding: 45px 0 25px 0;
-  font-family: "Roboto" sans-serif;
   color: white;
   text-align: center;
  background-color: #063a33;
@@ -107,18 +106,18 @@ height: 55px;
   filter: saturate(4);
 }
 
-.promo-title {
-font-family: 'Roboto Regular', sans-serif;
-font-size: 47px;
+.promo-title h2 {
+font-size: 72px;
 letter-spacing: 2px;
 line-height: 75px;
 text-transform: uppercase;
 padding-bottom: 50px;
+margin-top: 30px;
 vertical-align: top;
 }
 
-.promo-text {
-padding-top: 0px;
+.promo-text p {
+margin-top: 29px;
 font-size: 14px;
 max-width: 456px;
 line-height: 21px;
@@ -207,7 +206,6 @@ color: black;
 
 .season-tickets-wrapper {
   margin: 20px auto 0;
-  flex-basis: 707px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -226,7 +224,7 @@ max-width: 370px;
 
 .ticket-text {
 text-align: center;
-padding: 0 0 10px 0;
+padding: 0 0 8px 0;
 max-width: 370px;
 }
 
@@ -239,7 +237,7 @@ margin: 20px auto 0;
 }
 
 .season-tickets .button {
-margin-top: 14px;
+margin-top: 18px;
 background: #ff7931 url(img/Arrow\ forward.png) no-repeat 120px 50%;
 color: white;
 border: 2px solid #ff7931;
