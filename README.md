@@ -1,2 +1,2 @@
 # academy-maraphon
-my first page
+HTML Academy
