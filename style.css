@@ -449,6 +449,7 @@ color: white;
 margin-top: 35px;
 background: radial-gradient(circle, transparent 43%, #000408 43%);
 overflow: hidden;
+text-align: center;
 }
 
 .dark-theme .ticket-title:hover {
