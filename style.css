@@ -241,7 +241,7 @@ padding: 0 0 8px 0;
 max-width: 370px;
 }
 
-.light-theme .season-ticket-item p::after{
+.season-ticket-item p::after{
 content: '';
 display: block;
 width: 100px;
@@ -460,22 +460,7 @@ color: #ff7931;
 color: #ff7931;
 filter: saturate(4);
 }
-
-.season-tickets .button {
-  margin-top: 18px;
-  background: #ff7931 url(img/Arrow\ forward.png) no-repeat 120px 50%;
-  color: white;
-  border: 2px solid #ff7931;
-  font-size: 12;
-  letter-spacing: 2px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 11px 56px 10px 26px;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
+ 
 .season-tickets .button:hover {
 filter: saturate(2);
 }
