@@ -359,7 +359,7 @@ font-size: 0;
   background-position: center;
 }
 
-.social-button a {
+.light-theme .social-button a {
   text-decoration: none;
   font-size: 0;
 }
@@ -369,10 +369,10 @@ font-size: 0;
   background-color: #8c8c8c;
   }
 
-.social-button:active {
-    border: 2px solid #c2c2c2;
-    background-color: #3d3d3d;
-    }
+.light-theme .social-button:active {
+border: 2px solid #c2c2c2;
+background-color: #3d3d3d;
+}
 
 .social-button.insta {
   background-image: url(img/insta_icon.svg);
@@ -494,7 +494,17 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+.dark-theme .social-button a {
+  text-decoration: none;
+  font-size: 0;
+  }
+
 .dark-theme .social-button:hover {
 border: 2px solid white;
 background-color: #ff7931;
 }
+
+.dark-theme .social-button:active {
+  border: 2px solid #c2c2c2;
+  background-color: #3d3d3d;
+  }
