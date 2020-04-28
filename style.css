@@ -96,12 +96,12 @@ color: white;
 .promo-logo img {
 width: 55px;
 height: 55px;
+transition-duration: 0.4s;
 }
 
 .promo-logo img:hover {
 filter: saturate(2);
 transform: rotate(360deg) scale(1.2);
-transition-duration: 0.4s;
 }
 
 .promo-logo img:active {
@@ -390,7 +390,7 @@ font-size: 0;
 .dark-theme {
 margin: 0;
 padding: 0;
-background-color: #010a11;
+background-color: #000c14;
 font-family: 'Roboto Regular', sans-serif;
 color: white;
 font-size: 14px;
