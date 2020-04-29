@@ -88,6 +88,30 @@ flex-direction: column;
 align-items: center;
 } 
 
+.new-tag {
+float: left;
+padding: 0 25px;
+height: 25px;
+margin-top: -45px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: white;
+background-color: #ff7931;
+visibility: hidden;
+}
+
+.promo:hover .new-tag {
+  visibility: visible;
+}
+
 .sponsor {
 text-decoration: none;
 color: white;
